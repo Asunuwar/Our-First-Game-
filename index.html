@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Guess the number</title>
+
+    <!-- VENDOR -->
+    <link rel="stylesheet" href="vendor/normalize.css">
+    <link rel="stylesheet" href="vendor/reset.css">
+
+    <!-- javascript link -->
+    <script type="text/javascript" src="index.js"></script>
+
+    <!-- CUSTOM -->
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+    <h1>Guess the number!</h1>
+
+      <h2>Directions:</h2>
+      <p>
+        I am thinking of a number between 1
+          and 10.
+      <p>
+      Your Guess: <input type="text" id="guess" size="10" />
+      <br />
+      <input type="button" value="Sumbit Guess" onclick="guessNumber()" />
+      <input type="button" value="Reset Game" onclick="resetGame()" />
+      </p>
+
+  </body>
+</html>
